@@ -1,0 +1,124 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(213.82deg, rgb(0, 0, 0) 2.142%, rgb(52, 57, 130) 92.988%);
+    color: white;
+    font-family: Ruda;
+    font-size: 16px;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.level-1 {
+    span {
+        color: rgb(0, 157, 58);
+    }
+
+    .button {
+        background: linear-gradient(213.82deg, rgb(14, 88, 56) 2.142%, rgb(0, 203, 78) 92.988%);
+
+        &__circle {
+            background: rgb(0, 92, 15);
+        }
+
+        &__back {
+            background: rgba(0, 66, 40, 0.44);
+        }
+    }
+}
+
+.level-2 {
+    span {
+        color: rgb(147, 81, 0);
+    }
+
+    .button {
+        background: linear-gradient(213.82deg, rgb(64, 44, 7) 2.142%, rgb(202, 137, 62) 92.988%);
+
+        &__circle {
+            background: rgb(92, 66, 0);
+        }
+
+        &__back {
+            background: rgba(66, 33, 0, 0.537);
+        }
+    }
+}
+
+.level-3 {
+    span {
+        color: rgb(87, 30, 218);
+    }
+
+    .button {
+        background: linear-gradient(213.82deg, rgb(7, 26, 64) 2.142%, rgb(62, 67, 202) 92.988%);
+
+        &__circle {
+            background: rgb(0, 21, 92);
+        }
+
+        &__back {
+            background: rgba(0, 31, 66, 0.475);
+        }
+    }
+}
+
+.level-4 {
+    span {
+        color: rgb(218, 30, 218);
+    }
+
+    .button {
+        background: linear-gradient(213.82deg, rgb(64, 7, 64) 2.142%, rgb(202, 62, 190) 92.988%);
+
+        &__circle {
+            background: rgb(84, 0, 92);
+        }
+
+        &__back {
+            background: rgba(63, 0, 66, 0.571);
+        }
+    }
+}
+
+.level-5 {
+    span {
+        color: rgb(148, 20, 20);
+    }
+
+    .button {
+        background: linear-gradient(213.82deg, rgb(64, 7, 7) 2.142%, rgb(202, 62, 62) 92.988%);
+
+        &__circle {
+            background: rgb(92, 0, 0);
+        }
+
+        &__back {
+            background: rgba(66, 0, 0, 0.571);
+        }
+    }
+}
+
+.level-6 {
+    span {
+        color: rgb(224, 195, 50);
+    }
+
+    .button {
+        background: linear-gradient(213.82deg, rgb(64, 59, 7) 2.142%, rgb(202, 193, 62) 92.988%);
+
+        &__circle {
+            background: rgb(92, 89, 0);
+        }
+
+        &__back {
+            background: rgba(63, 66, 0, 0.571);
+        }
+    }
+}
